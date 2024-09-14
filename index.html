@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>F1 Driver Standings</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>F1 Driver Standings</h1>
+
+    <div class="filters">
+        <input type="text" id="search" placeholder="Search by Team"> 
+        <select id="filter-driver">
+            <option value="">All Drivers</option>
+            </select>
+        <select id="sort">
+            <option value="position-asc">Position (Ascending)</option>
+            <option value="position-desc">Position (Descending)</option>
+            </select>
+    </div>
+
+    <div id="book-list"> </div> 
+
+    <div id="loading">Loading...</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
